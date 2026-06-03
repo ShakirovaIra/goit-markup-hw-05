@@ -425,17 +425,30 @@
     </svg>
     </div>
   </div>
-  <div class="modal-field">
+  <div class="modal-field-comment">
     <label for="comment-input" class="modal-label">Comment</label>
     <textarea class="modal-input-comment" name="comment" placeholder="Text input" required id="comment-input"></textarea>
   </div>
 
   
-
-  <input class="checkbox-input" type="checkbox" name="checkbox" id="magic-checkbox" required />
-  <label class="checkbox-label" for="magic-checkbox">
-    I agree to the processing of my personal data
+<div>
+  <input class="modal-checkbox visually-hidden" 
+    type="checkbox" 
+    name="checkbox" 
+    id="modal-checkbox"
+    value="true" />
+  <label for="modal-checkbox" class="modal-checkbox-label">
+    <span class="modal-checkbox-mark">
+      <svg class="modal-checkbox-icon" width="10" height="8">
+        <use href="./images/icons.svg#icon-check-mark"></use>
+      </svg>
+    </span>
+    <span>I accept the terms and conditions of the <a href="#">Privacy Policy</a></span>
   </label>
+</div>
+
+
+
   <button class="modal-submit-button" type="submit">Send</button>
   </form>
   </div>
@@ -443,3 +456,4 @@
 </body>
 
 </html>
+
