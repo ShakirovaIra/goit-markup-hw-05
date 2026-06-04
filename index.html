@@ -19,18 +19,10 @@
     />
 
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/hero.css" />
-    <link rel="stylesheet" href="./css/features.css" />
-    <link rel="stylesheet" href="./css/team.css" />
-    <link rel="stylesheet" href="./css/portfolio.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/modal.css" />
   </head>
 
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-logo" href="./index.html">
@@ -65,7 +57,7 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero" id="hero">
         <div class="container">
           <div class="hero-container-flex">
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
@@ -73,9 +65,9 @@
           </div>
         </div>
       </section>
-      <section class="section">
+      <section class="section" id="features">
         <div class="container">
-          <h2 class="visually-hidden">Our Features</h2>
+          <h2 class="sr-only">Our Features</h2>
           <ul class="features-list">
             <li class="feature-item">
               <div class="feature-container-icon">
@@ -128,7 +120,7 @@
           </ul>
         </div>
       </section>
-      <section class="section team">
+      <section class="section team" id="team">
         <div class="container">
           <h2 class="team-title section-title">Our Team</h2>
           <ul class="team-list">
@@ -320,7 +312,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="portfolio">
         <div class="container">
           <h2 class="portfolio-title section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -428,7 +420,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container">
         <div class="footer-info">
           <a class="footer-logo" href="./index.html">
@@ -493,7 +485,7 @@
         </div>
       </div>
     </footer>
-    <div class="overlay">
+    <div class="overlay" id="modal">
       <div class="modal">
         <button type="button" class="modal-close-button">
           <svg class="modal-close-icon" width="8" height="8">
